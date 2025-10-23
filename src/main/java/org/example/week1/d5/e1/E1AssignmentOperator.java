@@ -2,7 +2,6 @@ package org.example.week1.d5.e1;
 
 public class E1AssignmentOperator {
     public static void main(String[] args) {
-
         // Step 1: Declare the String variable and set it to "Chen"
 
 
