@@ -49,6 +49,20 @@ public class E1ElseIf {
         // Else if day equals 7, print "Sunday: Family time."
         // Print the day and corresponding activity in the format: "Day <day>: <activity>"
 
+        int day=3;
+            if (day==2) {
+                System.out.println("Tuesday: Library visit");
+            } else if (day==3) {
+                System.out.println("Wednesday: Group study session.");
+            } else if (day==4) {
+                System.out.println("Thursday: Lab work.");
+            } else if (day==5) {
+                System.out.println("Friday: Sports day.");
+            } else if (day==6) {
+                System.out.println("Saturday: Free day for hobbies");
+            } else if (day==7) {
+                System.out.println("Sunday: Family time");
+            }
 
     }
 }
