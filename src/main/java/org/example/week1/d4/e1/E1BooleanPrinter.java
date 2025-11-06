@@ -10,6 +10,7 @@ E1BooleanPrinter {
         isTrue = true;
         isFalse = false;
         System.out.println(isTrue);
+        System.out.println(isFalse);
 
 
     }
