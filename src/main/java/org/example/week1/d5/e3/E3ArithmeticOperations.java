@@ -10,7 +10,7 @@ public class E3ArithmeticOperations {
         int sum = num1+num2;
         int product = num1*num2;
         int difference= num2-num1;
-        int quotient = num1 / num2;
+        int quotient = num2 / num1;
 
 
         // Step 3: Print the results
