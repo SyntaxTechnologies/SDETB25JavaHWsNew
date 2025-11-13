@@ -10,6 +10,6 @@ public class E2ArithmeticOperations {
         float result = myFloat*myFloat;
 
         // Step 3: Print the result
-        System.out.println(result);
+        System.out.println("The multiplication of 8.2 with itself is equal to "+result);
     }
 }
