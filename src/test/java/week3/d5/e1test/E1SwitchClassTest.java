@@ -50,7 +50,7 @@ public class E1SwitchClassTest {
 
         E1SwitchClass.main(new String[]{});
         String expectedOutput = "Enter name of the instructor" + System.lineSeparator() +
-                "Will take care of SDLC Assignment" + System.lineSeparator();
+                "Will take care of Selenium Assignment" + System.lineSeparator();
 
         String failureMessage = "The output does not match the expected values for Moazzam.";
 
@@ -58,15 +58,15 @@ public class E1SwitchClassTest {
     }
 
     @Test
-    void testWeqas() {
-        String simulatedInput = "Weqas\n";
+    void testSohail() {
+        String simulatedInput = "Sohail\n";
         System.setIn(new ByteArrayInputStream(simulatedInput.getBytes()));
 
         E1SwitchClass.main(new String[]{});
         String expectedOutput = "Enter name of the instructor" + System.lineSeparator() +
-                "Will take care of Selenium Assignment" + System.lineSeparator();
+                "Will take care of SDLC Assignment" + System.lineSeparator();
 
-        String failureMessage = "The output does not match the expected values for Weqas.";
+        String failureMessage = "The output does not match the expected values for Sohail.";
 
         assertEquals(expectedOutput, outContent.toString(), failureMessage);
     }
