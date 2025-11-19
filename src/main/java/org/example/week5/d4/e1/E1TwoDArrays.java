@@ -9,7 +9,12 @@ public class E1TwoDArrays {
                 {7,8,9}
         };
 
-        // Use Nested for loop to print each element of the array in the matrix form
+        for (int[] ints : a) {            // rows
+            for (int anInt : ints) {     // columns
+                System.out.print(anInt + " ");
+            }
+            System.out.println(); // move to the next line after each row
+        }
 
 
     }

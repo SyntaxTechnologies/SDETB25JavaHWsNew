@@ -3,13 +3,33 @@ package org.example.week2.d3.e3;
 public class E3CompoundOperators {
     public static void main(String[] args) {
 
-// Step 1: Declare Variables and Initialize with Values for each compound operator
-//         (e.g., addOp, subOp, mulOp, divOp, modOp)
+        // Create Variables
+        int addOp = 10;
+        int subOp = 20;
+        int mulOp = 5;
+        int divOp = 40;
+        int modOp = 17;
 
-// Step 2: Apply Compound Operators to Modify Each Variable's Value
-//         (e.g., addOp += 5, subOp -= 3, mulOp *= 3, divOp /= 5, modOp %= 5)
+        // Use Compound Operators and Print Results
 
-// Step 3: Print the Updated Values to Observe the Results
-//         (e.g., print the values of addOp, subOp, mulOp, divOp, and modOp)
+        // += : add 5 to addOp
+        addOp += 5;  // 10 + 5 = 15
+        System.out.println(addOp);
+
+        // -= : subtract 3 from subOp
+        subOp -= 3;  // 20 - 3 = 17
+        System.out.println(subOp);
+
+        // *= : multiply mulOp by 3
+        mulOp *= 3;  // 5 * 3 = 15
+        System.out.println(mulOp);
+
+        // /= : divide divOp by 5
+        divOp /= 5;  // 40 / 5 = 8
+        System.out.println(divOp);
+
+        // %= : remainder of modOp divided by 5
+        modOp %= 5;  // 17 % 5 = 2
+        System.out.println(modOp);
     }
 }

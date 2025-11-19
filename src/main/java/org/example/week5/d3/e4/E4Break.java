@@ -3,12 +3,20 @@ package org.example.week5.d3.e4;
 public class E4Break {
     public static void main(String[] args) {
 
-        // Declare and initialize an array with items on the production line
+        // Declare and initialize the array of items
+        String[] items = {"Item1", "Item2", "Defective", "Item3", "Item4"};
 
-        // Enhanced for loop to iterate through the items
+        // Iterate through the array using an enhanced for loop
+        for (String item : items) {
 
-        // If the current item is "Defective", print the message and break the loop
+            // Check if the current item is defective
+            if (item.equals("Defective")) {
+                System.out.println("Defective item found. Stopping the production line.");
+                break;  // Exit the loop
+            }
 
-        // If the item is not defective, print the message for processing the item
+            // Process the current item if it's not defective
+            System.out.println("Processing " + item);
+        }
     }
 }

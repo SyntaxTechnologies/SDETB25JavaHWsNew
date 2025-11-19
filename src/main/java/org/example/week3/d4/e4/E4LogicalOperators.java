@@ -1,30 +1,33 @@
 package org.example.week3.d4.e4;
 
+import java.util.Scanner;
+
 public class E4LogicalOperators {
     public static void main(String[] args) {
 
-// Weekend Subject Planner
-//
-// Step 1: Create a Scanner object.
+        Scanner scan = new Scanner(System.in);
 
-// Step 2: Capture Boolean Inputs.
-//   - Ask the user: "Is it weekend? (true/false)"
+        // Capture Boolean Inputs
+        System.out.println("Is it weekend? (true/false)");
+        boolean isWeekend = scan.nextBoolean();
 
-//   - Ask the user: "Are you available? (true/false)"
+        System.out.println("Are you available? (true/false)");
+        boolean isAvailable = scan.nextBoolean();
 
+        String subject;
 
-// Step 3: Determine the Subject to Study.
-//   - Use a else if conditional statement to decide which subject to assign:
-//       - If 'isWeekend' is true AND 'isAvailable' is true, set the subject to "Java".
-//       - If 'isWeekend' is false AND 'isAvailable' is true, set the subject to "manual testing".
-//       - If 'isAvailable' is false (regardless of whether it's the weekend), set the subject to "no subject".
-//
-// Step 4: Print the Subject.
-//   - Display the message: "Today you will be learning " followed by the determined subject.
-//
-// Reminder:
-//   - Write your code step by step and test each part to ensure the output matches the expected results.
+        // Determine the Subject
+        if (isWeekend && isAvailable) {
+            subject = "Java";
+        } else if (!isWeekend && isAvailable) {
+            subject = "manual testing";
+        } else {
+            subject = "no subject";
+        }
 
+        // Print the Subject
+        System.out.println("Today you will be learning " + subject);
 
+        scan.close();
     }
 }

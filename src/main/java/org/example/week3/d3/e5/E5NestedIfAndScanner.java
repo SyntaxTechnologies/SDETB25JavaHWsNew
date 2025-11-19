@@ -1,19 +1,36 @@
 package org.example.week3.d3.e5;
 
+import java.util.Scanner;
+
 public class E5NestedIfAndScanner {
     public static void main(String[] args) {
 
-// Note: Less comments in this File so that slowly you can start writing code independently.
+        // Create a Scanner Object
+        Scanner scan = new Scanner(System.in);
 
-// Car Rental Eligibility Checker - Step-by-Step Guide
+        // Capture Input Information
+        System.out.println("Please enter your age:");
+        int age = scan.nextInt();
 
-// Step 1: Create a Scanner object.
+        // Clear leftover newline from nextInt()
+        scan.nextLine();
 
-// Step 2: Ask the user for their age.
+        System.out.println("Do you have a valid driver's license? (yes/no):");
+        String licenseStatus = scan.nextLine(); // e.g., "yes" or "no"
 
-// Step 3: Ask the user if they have a valid driver's license.
+        // Check Car Rental Eligibility
+        if (age >= 21) {
+            // Nested check for license status
+            if (licenseStatus.equals("yes")) {
+                System.out.println("You are eligible to rent a car.");
+            } else {
+                System.out.println("You are not eligible to rent a car because you don't have a valid driver's license.");
+            }
+        } else {
+            System.out.println("You are not eligible to rent a car because you are too young.");
+        }
 
-// Step 4: Check if the user is eligible to rent a car.
+        scan.close();
 
 
     }

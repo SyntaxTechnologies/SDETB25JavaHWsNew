@@ -2,17 +2,17 @@ package org.example.week5.d3.e1;
 
 public class E1EnhancedForLoop {
     public static void main(String[] args) {
-        // Heads up! This can be a bit tricky.
-        // yes we can use just one for loop to do this we are intentionally using two for loops one to fill the array and other to print the values
-        // Create an array of integers with size 11
+        // Declare and initialize the array (11 years: 2025–2035)
+        int[] years = new int[11];
 
+        // Fill the array with years 2025 to 2035 using a normal for loop
+        for (int i = 0; i < years.length; i++) {
+            years[i] = 2025 + i;
+        }
 
-        // Use a for loop to add the years from 2025 to 2035 to the array
-
-
-        // Use another for loop to iterate through the array and print each value on a new line
-
-
-
+        // Print the array values using an enhanced for loop
+        for (int year : years) {
+            System.out.println(year);
+        }
     }
 }
