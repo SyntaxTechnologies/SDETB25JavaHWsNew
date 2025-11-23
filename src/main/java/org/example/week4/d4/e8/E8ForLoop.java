@@ -1,15 +1,23 @@
 package org.example.week4.d4.e8;
 
+import java.util.Scanner;
+
 public class E8ForLoop {
     public static void main(String[] args) {
-        // Heads up! This can be a bit tricky.
-        // Create a Scanner object to read input from the console
 
+        Scanner input = new Scanner(System.in);
 
-        // Prompt the user to enter a value for x
+        // Prompt the user
+        System.out.print("In: ");
 
+        // Read user input
+        int x = input.nextInt();
 
-        // Use a for loop that starts with i = x - 1 and continues while i >= 0
-        // Inside the loop, print the value of i followed by a space
+        // For loop: start at x - 1 and go down to 0
+        for (int i = x - 1; i >= 0; i--) {
+            System.out.print(i + " ");
+        }
+
+        input.close();
     }
 }
