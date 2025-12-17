@@ -4,7 +4,11 @@ public class E3IfElseStatements {
     public static void main(String[] args) {
         // Declare a string variable called name and assign it the value "Weqas"
 
+        String name = "Wegas";
+
         // Declare a string variable called mobileNumber and assign it the value "123-456-7890"
+
+        String mobileNumber="123-456-7890";
 
         // Declare an integer variable called age and assign it the value 45
 
