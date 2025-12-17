@@ -21,6 +21,9 @@ public class E1StringManipulationsP4 {
          */
 
 
+        String dataString = "HelloLearnJavaWorld";
+
+        System.out.println(dataString.substring(5,14));
 
 
 

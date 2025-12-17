@@ -10,6 +10,17 @@ public class E2StringManipulationsP1 {
 
     // Convert the string to lowercase using toLowerCase() and print the result
 
+        String name = "Timmy";
+
+        int length = name.length();
+
+        String upper = name.toUpperCase();
+
+        String lower = name.toLowerCase();
+
+        System.out.println("Length of Timmy: "+length);
+        System.out.println("Uppercase: "+upper);
+        System.out.println("Lowercase: "+lower);
 
     }
 }

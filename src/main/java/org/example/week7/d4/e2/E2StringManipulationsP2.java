@@ -20,6 +20,11 @@ public class E2StringManipulationsP2 {
          * true
          */
 
+        String email = "john.doe@example.com";
+
+        System.out.println(email.contains("@"));
+        System.out.println(email.startsWith("info"));
+        System.out.println(email.endsWith(".com"));
 
     }
 }

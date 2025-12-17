@@ -12,6 +12,10 @@ public class E3StringManipulationsP5 {
          * The expected output should be: 1234567890
          */
 
+        String phoneNumber = "(123) 456-7890";
+
+        String replace = phoneNumber.replaceAll("\\D",""); //\\D = non digit character
+        System.out.println(replace);
 
     }
 }

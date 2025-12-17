@@ -13,6 +13,13 @@ public class E4StringManipulationsP3 {
 
 // Hint 5: When searching for something that doesn't exist, what special value should you expect?
 
+        String word = "hello";
+
+        int a = word.indexOf("o");
+        int b = word.indexOf("j");
+
+        System.out.println("Position of first 'o': "+a);
+        System.out.println("Position of 'j': "+b);
 
     }
 }
