@@ -4,7 +4,7 @@ public class
 E1BooleanPrinter {
     public static void main(String[] args) {
 
-<<<<<<< HEAD
+
         // Below is a sample code
         boolean isTrue;
         boolean isFalse;
@@ -14,7 +14,5 @@ E1BooleanPrinter {
         System.out.println(isFalse);
 
 
-=======
->>>>>>> origin/main
     }
 }

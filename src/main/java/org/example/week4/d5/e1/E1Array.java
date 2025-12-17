@@ -3,7 +3,6 @@ package org.example.week4.d5.e1;
 public class E1Array {
     public static void main(String[] args) {
 
-<<<<<<< HEAD
         int[] numbers = {45, 78, 12, 67, 55};
 
         // Loop to print values
@@ -11,7 +10,5 @@ public class E1Array {
             System.out.print(numbers[i] + " ");
         }
 
-=======
->>>>>>> origin/main
     }
 }

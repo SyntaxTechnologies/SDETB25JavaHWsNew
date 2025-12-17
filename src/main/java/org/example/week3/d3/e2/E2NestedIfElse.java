@@ -4,7 +4,7 @@ public class E2NestedIfElse {
     public static void main(String[] args) {
 
 
-<<<<<<< HEAD
+
         int age = 16;          // person's age
         boolean isStudent = true; // is the person a student?
 
@@ -20,7 +20,5 @@ public class E2NestedIfElse {
             }
         }
 
-=======
->>>>>>> origin/main
     }
 }

@@ -2,7 +2,7 @@ package org.example.week4.d3.e6;
 
 public class E6DoWhileLoop {
     public static void main(String[] args) {
-<<<<<<< HEAD
+
         // Declare a counter variable and set it to 20
         int counter = 20;
 
@@ -15,7 +15,7 @@ public class E6DoWhileLoop {
             counter -= 2;
 
         } while (counter >= 2);
-=======
->>>>>>> origin/main
+
+
     }
 }

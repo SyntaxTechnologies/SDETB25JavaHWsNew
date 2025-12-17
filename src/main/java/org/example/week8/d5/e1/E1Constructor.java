@@ -3,16 +3,11 @@ package org.example.week8.d5.e1;
 public class E1Constructor {
     public static void main(String[] args) {
 
+        SyntaxTechnologies s1 = new SyntaxTechnologies();
+        SyntaxTechnologies s2 = new SyntaxTechnologies("Syntax", 6, 2020, "07302020");
 
-
-        //   Create an object of SyntaxTechnologies using the non-argument constructor.
-        //   Create another object using the parameterized constructor (pass values).
-        //   Call the display() method on both objects.
-        //5. Expected Output
-        //   For the Non-Argument Constructor
-        //   null 0 0 null
-        //   For the Parameterized Constructor
-        //   Syntax 6 2020 07302020
+        s1.display();
+        s2.display();
 
 
     }

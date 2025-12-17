@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class E2LogicalOperators {
     public static void main(String[] args) {
 
-<<<<<<< HEAD
         Scanner scan = new Scanner(System.in);
 
         // Capture Monthly Expenses
@@ -29,8 +28,6 @@ public class E2LogicalOperators {
         }
 
         scan.close();
-=======
 
->>>>>>> origin/main
     }
 }

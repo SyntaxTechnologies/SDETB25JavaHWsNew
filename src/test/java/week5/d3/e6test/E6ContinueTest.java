@@ -1,10 +1,7 @@
 package week5.d3.e6test;
 
-
-<<<<<<< HEAD
 import org.example.week5.d3.e5.E5Continue;
-=======
->>>>>>> origin/main
+
 import org.example.week5.d3.e6.E6Continue;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
@@ -32,10 +29,9 @@ class E6ContinueTest {
 
     @Test
     void testContinueInLoops() {
-<<<<<<< HEAD
+
         //changed because it was calling a wrong class
-=======
->>>>>>> origin/main
+
         E6Continue.main(new String[]{});
         String expectedOutput = "Processing Item1" + System.lineSeparator() +
                                 "Processing Item2" + System.lineSeparator() +

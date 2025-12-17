@@ -3,7 +3,7 @@ package org.example.week3.d3.e1;
 public class E1NestedIfElse {
     public static void main(String[] args) {
 
-<<<<<<< HEAD
+
         int age = 14;
         int height = 125;
 
@@ -21,7 +21,3 @@ public class E1NestedIfElse {
 
     }
 }
-=======
-            }
-        }
->>>>>>> origin/main
