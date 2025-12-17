@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class E5LogicalOperators {
     public static void main(String[] args) {
 
+<<<<<<< HEAD
         Scanner scan = new Scanner(System.in);
 
         // Capture Marks Input
@@ -29,6 +30,8 @@ public class E5LogicalOperators {
         }
 
         scan.close();
+=======
+>>>>>>> origin/main
 
 
 

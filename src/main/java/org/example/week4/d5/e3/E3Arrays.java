@@ -2,6 +2,7 @@ package org.example.week4.d5.e3;
 
 public class E3Arrays {
     public static void main(String[] args) {
+<<<<<<< HEAD
         // Create an array of characters and store the values 's', 'a', 'y', 'b', 'n', 'c', 't', 'd', 'a', 'e', 'x'
 
         char[] letters = {'s', 'a', 'y', 'b', 'n', 'c', 't', 'd', 'a', 'e', 'x'};
@@ -17,6 +18,8 @@ public class E3Arrays {
 
 
 
+=======
+>>>>>>> origin/main
 
 
     }

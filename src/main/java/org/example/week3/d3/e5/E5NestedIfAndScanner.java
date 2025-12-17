@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class E5NestedIfAndScanner {
     public static void main(String[] args) {
 
+<<<<<<< HEAD
         // Create a Scanner Object
         Scanner scan = new Scanner(System.in);
 
@@ -33,5 +34,7 @@ public class E5NestedIfAndScanner {
         scan.close();
 
 
+=======
+>>>>>>> origin/main
     }
 }

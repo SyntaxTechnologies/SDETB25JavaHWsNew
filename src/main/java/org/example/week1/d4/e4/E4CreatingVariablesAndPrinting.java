@@ -3,6 +3,7 @@ package org.example.week1.d4.e4;
 public class E4CreatingVariablesAndPrinting {
     public static void main(String[] args) {
 
+<<<<<<< HEAD
         String star1="*";
         String star2="**";
         String star3="***";
@@ -28,6 +29,16 @@ public class E4CreatingVariablesAndPrinting {
         System.out.println(star3);
         System.out.println(hash1);
         System.out.println(hash2);
+=======
+        // The pattern should be:
+        // *
+        // **
+        // ***
+        // ##
+        // #
+
+        // Note: Each System.out.println statement will create a new line
+>>>>>>> origin/main
 
     }
 }

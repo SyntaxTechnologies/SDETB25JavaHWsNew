@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class E4NestedIfAndScanner {
     public static void main(String[] args) {
+<<<<<<< HEAD
         // Create a Scanner Object
         Scanner scan = new Scanner(System.in);
 
@@ -32,6 +33,8 @@ public class E4NestedIfAndScanner {
         scan.close();
 
 
+=======
+>>>>>>> origin/main
 
     }
 }

@@ -3,6 +3,7 @@ package org.example.week5.d3.e6;
 public class E6Continue {
     public static void main(String[] args) {
 
+<<<<<<< HEAD
         // Declare and initialize the array of inventory items
         String[] items = {"Item1", "Out of Stock", "Item2", "Item3", "Out of Stock", "Item4"};
 
@@ -17,5 +18,8 @@ public class E6Continue {
             // Process items that are in stock
             System.out.println("Processing " + item);
         }
+=======
+
+>>>>>>> origin/main
     }
 }

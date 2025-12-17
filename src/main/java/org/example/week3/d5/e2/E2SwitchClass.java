@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class E2SwitchClass {
     public static void main(String[] args) {
 
+<<<<<<< HEAD
         // Create a Scanner object
         Scanner scan = new Scanner(System.in);
 
@@ -39,4 +40,8 @@ public class E2SwitchClass {
         scan.close();
     }
 
+=======
+
+    }
+>>>>>>> origin/main
 }

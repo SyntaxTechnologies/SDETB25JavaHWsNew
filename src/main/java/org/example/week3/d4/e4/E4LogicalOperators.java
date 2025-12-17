@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class E4LogicalOperators {
     public static void main(String[] args) {
 
+<<<<<<< HEAD
         Scanner scan = new Scanner(System.in);
 
         // Capture Boolean Inputs
@@ -29,5 +30,8 @@ public class E4LogicalOperators {
         System.out.println("Today you will be learning " + subject);
 
         scan.close();
+=======
+
+>>>>>>> origin/main
     }
 }
