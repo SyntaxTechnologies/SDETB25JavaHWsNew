@@ -4,6 +4,7 @@ public class
 E1BooleanPrinter {
     public static void main(String[] args) {
 
+
         // Below is a sample code
         boolean isTrue;
         boolean isFalse;

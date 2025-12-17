@@ -3,6 +3,7 @@ package org.example.week5.d3.e4;
 public class E4Break {
     public static void main(String[] args) {
 
+
         // Declare and initialize the array of items
         String[] items = {"Item1", "Item2", "Defective", "Item3", "Item4"};
 
@@ -18,5 +19,6 @@ public class E4Break {
             // Process the current item if it's not defective
             System.out.println("Processing " + item);
         }
+
     }
 }

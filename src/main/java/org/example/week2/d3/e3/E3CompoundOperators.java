@@ -3,6 +3,7 @@ package org.example.week2.d3.e3;
 public class E3CompoundOperators {
     public static void main(String[] args) {
 
+
         // Create Variables
         int addOp = 10;
         int subOp = 20;
@@ -31,5 +32,6 @@ public class E3CompoundOperators {
         // %= : remainder of modOp divided by 5
         modOp %= 5;  // 17 % 5 = 2
         System.out.println(modOp);
+
     }
 }

@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class E7ForLoop {
     public static void main(String[] args) {
+
         Scanner input = new Scanner(System.in);
 
         // Prompt the user
@@ -18,6 +19,7 @@ public class E7ForLoop {
         }
 
         input.close();
+
 
     }
 }

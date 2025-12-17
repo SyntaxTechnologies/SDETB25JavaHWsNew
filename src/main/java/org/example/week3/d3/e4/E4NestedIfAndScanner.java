@@ -31,7 +31,5 @@ public class E4NestedIfAndScanner {
 
         scan.close();
 
-
-
     }
 }

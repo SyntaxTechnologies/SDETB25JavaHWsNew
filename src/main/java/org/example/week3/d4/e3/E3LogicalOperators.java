@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class E3LogicalOperators {
     public static void main(String[] args) {
+
         // Create a Scanner object
         Scanner scan = new Scanner(System.in);
 

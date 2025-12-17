@@ -17,5 +17,6 @@ public class E3Break {
             // If not critical, print normal temperature
             System.out.println("Temperature is normal: " + temp + "°C");
         }
+
     }
 }

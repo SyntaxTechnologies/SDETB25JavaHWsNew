@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class E3NestedIfAndScanner {
     public static void main(String[] args) {
 
+
         // 1. Create a Scanner object to read from the keyboard
         Scanner input = new Scanner(System.in);
 
@@ -19,5 +20,6 @@ public class E3NestedIfAndScanner {
 
         // 5. Close the Scanner
         input.close();
+
     }
 }

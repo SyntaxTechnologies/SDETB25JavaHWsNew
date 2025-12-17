@@ -6,11 +6,12 @@ public class E3CreatingVariableAndPrinting {
 
         // TODO: Print money and myBoolean on the same line using System.out.print
 
-        // Note: Use System.out.print, not println, to keep output on one line
+
         boolean myBoolean = false;
         double money = 99999.99;
 
         System.out.print(money);
         System.out.print(myBoolean);
+
     }
 }

@@ -2,6 +2,7 @@ package org.example.week4.d3.e2;
 
 public class E2WhileLoop {
     public static void main(String[] args) {
+
         // Declare a counter variable and set it to 15
         int counter = 15;
 

@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class E1SwitchClass {
     public static void main(String[] args) {
+
         // Create a Scanner object to read input
         Scanner scan = new Scanner(System.in);
 
@@ -35,6 +36,7 @@ public class E1SwitchClass {
         System.out.println(responsibility);
 
         scan.close();
+
 
 
 

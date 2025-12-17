@@ -28,5 +28,6 @@ public class E2LogicalOperators {
         }
 
         scan.close();
+
     }
 }

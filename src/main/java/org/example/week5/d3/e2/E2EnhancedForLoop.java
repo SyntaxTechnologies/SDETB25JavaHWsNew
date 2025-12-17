@@ -2,6 +2,7 @@ package org.example.week5.d3.e2;
 
 public class E2EnhancedForLoop {
     public static void main(String[] args) {
+
         // Declare and initialize the array of test durations (in seconds)
         int[] testDurations = {45, 82, 63, 95, 50, 70, 110, 55, 60};
 
@@ -14,6 +15,7 @@ public class E2EnhancedForLoop {
                 System.out.print(duration + " ");
             }
         }
+
 
 
     }

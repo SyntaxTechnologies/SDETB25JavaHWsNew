@@ -2,6 +2,7 @@ package org.example.week4.d3.e1;
 
 public class E1WhileLoop {
     public static void main(String[] args) {
+
         // Declare a counter variable and set it to 0
         int counter = 0;
 
@@ -10,5 +11,6 @@ public class E1WhileLoop {
             System.out.println(counter);
             counter++; // increment counter by 1
         }
+
     }
 }

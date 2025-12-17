@@ -1,14 +1,22 @@
 package org.example.week7.d3.e1;
 
 public class Student {
+    public String name;
+    public int roll_no;
 
-    public static void main(String[] args) {
-        String name;
-        int roll_no;
-        name = "John";
-        roll_no= 2;
-
-        System.out.println("name is "+name +" and roll number is "+ roll_no);
+    public int getRoll_no() {
+        return roll_no;
     }
 
+    public void setRoll_no(int roll_no) {
+        this.roll_no = roll_no;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
 }
