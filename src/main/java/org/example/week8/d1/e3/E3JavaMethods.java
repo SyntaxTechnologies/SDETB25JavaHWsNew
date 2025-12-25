@@ -3,6 +3,8 @@ package org.example.week8.d1.e3;
 public class E3JavaMethods {
     public static void main(String[] args) {
 
+        TimePrinter.printTime(11, 30);
+
         //Step 1: Create the printTime Method
         //        Inside the TimePrinter class, create a method named printTime.
         //        The method should take two parameters of type int:
@@ -19,6 +21,7 @@ public class E3JavaMethods {
         //Step 2: Run the Program
         //        Expected Output
         //        11:30
+
 
     }
 }

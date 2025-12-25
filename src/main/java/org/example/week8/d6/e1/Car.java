@@ -1,6 +1,6 @@
 package org.example.week8.d6.e1;
 
-public class Car {
+
 
     /*
      * 1. Make Car class extend Vehicle using the extends keyword.
@@ -10,4 +10,17 @@ public class Car {
      * 5. After calling displayInfo(), use System.out.println() to print the car's model.
      *    - For example, print: "Model: Corolla"
      */
-}
+
+    public class Car extends Vehicle {
+
+        String model;
+
+        public void displayCarInfo() {
+            // Call parent (Vehicle) method
+            displayInfo();
+
+            // Print car-specific info
+            System.out.println("Model: " + model);
+        }
+    }
+

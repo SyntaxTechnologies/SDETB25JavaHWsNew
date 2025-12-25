@@ -15,7 +15,7 @@ public class E2IfElseStatements {
         // If number is positive,then print The number is positive.
         // If number is negative,then print The number is negative.
 
-        int number=-5;
+
         if (number<0) {
             System.out.println("The number is negative.");
 

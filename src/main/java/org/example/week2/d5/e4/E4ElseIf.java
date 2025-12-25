@@ -21,7 +21,7 @@ public class E4ElseIf {
 
 
         // Declare a string variable and assign a value
-        String animal = "dog";
+
         // Use if-else-if conditions to classify the animal
 
         // If animal is "dog", print: The animal is a mammal.

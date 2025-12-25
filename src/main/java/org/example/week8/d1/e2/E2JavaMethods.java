@@ -10,5 +10,9 @@ public class E2JavaMethods {
 
         // TODO: Step 3 - Run your program and verify the output.
         // The expected output is numbers 1 through 10 printed on separate lines.
+
+        Printer printer = new Printer();
+        printer.printNumbers();
+
     }
     }

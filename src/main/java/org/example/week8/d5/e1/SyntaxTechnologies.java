@@ -34,4 +34,26 @@ public class SyntaxTechnologies {
     //   This method prints all instance variables in the format:
     //   schoolName batch year lastDayOfClass
 
+    String schoolName;
+    int batch;
+    int year;
+    String lastDayOfClass;
+
+    public SyntaxTechnologies() {
+        this.schoolName = null;
+        this.batch = 0;
+        this.year = 0;
+        this.lastDayOfClass = null;
+    }
+
+    public SyntaxTechnologies(String schoolName, int batch, int year, String lastDayOfClass) {
+        this.schoolName = schoolName;
+        this.batch = batch;
+        this.year = year;
+        this.lastDayOfClass = lastDayOfClass;
+    }
+
+    public void display() {
+        System.out.println(schoolName + " " + batch + " " + year + " " + lastDayOfClass);
+    }
 }

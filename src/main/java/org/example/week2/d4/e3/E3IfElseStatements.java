@@ -16,11 +16,11 @@ public class E3IfElseStatements {
         }
 
         // Declare a string variable called name and assign it the value "Weqas"
-        String name="Weqas";
+
         // Declare a string variable called mobileNumber and assign it the value "123-456-7890"
-        String mobileNumber="123-456-7890";
+
         // Declare an integer variable called age and assign it the value 45
-        int age=45;
+
         // Print the user's information
 
         // Use a simple if-else condition to check if the user is 18 or older.

@@ -15,5 +15,13 @@ public class E1Constructor {
         //   Syntax 6 2020 07302020
 
 
+        SyntaxTechnologies obj1 = new SyntaxTechnologies();
+        obj1.display();
+
+        SyntaxTechnologies obj2 =
+                new SyntaxTechnologies("Syntax", 6, 2020, "07302020");
+        obj2.display();
+
+
     }
 }
