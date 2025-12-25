@@ -3,14 +3,11 @@ package org.example.week9.d4.e1;
 public class E1ObjectTypeCasting {
 
     public static void main(String[] args){
+        Animal animal = new Dog();
 
-
-        /*
-         *    - Create a Dog object and assign it to a variable of type Animal.
-         *    - Call makeSound() on this Animal variable (it should print "Woof!").
-         *    - Cast the Animal variable to a Dog variable.
-         *    - Call fetch() on the Dog variable to print "Fetching the ball!".
-         */
+        animal.makeSound(); // Woof!
+        Dog dog = (Dog) animal;
+        dog.fetch();
     }
 
 }

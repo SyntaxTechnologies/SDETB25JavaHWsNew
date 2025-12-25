@@ -1,6 +1,10 @@
 package org.example.week9.d5.e1;
 
-public class Vehicle {
-    // Declare an abstract method startEngine() with no parameters.
+public abstract class Vehicle {
+    public abstract void startEngine();
+
     // Create a non-abstract method stopEngine() that prints "Vehicle engine stopped".
+    public void stopEngine() {
+        System.out.println("Vehicle engine stopped");
+    }
 }
