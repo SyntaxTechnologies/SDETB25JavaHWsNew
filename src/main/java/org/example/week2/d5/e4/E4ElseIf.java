@@ -36,5 +36,18 @@ public class E4ElseIf {
 
         // If animal does not match any of the above, print: Unknown animal type.
 
+        if (animal == "dog") {
+            System.out.println("The animal is a mammal.");
+        } else if (animal == "eagle") {
+            System.out.println("The animal is a bird.");
+        } else if (animal == "shark") {
+            System.out.println("The animal is a fish.");
+        } else if (animal == "frog") {
+            System.out.println("The animal is a amphibian.");
+        } else if (animal == "snake") {
+            System.out.println("The animal reptile.");
+        } else {
+            System.out.println("Unknown animal type.");
+        }
     }
 }

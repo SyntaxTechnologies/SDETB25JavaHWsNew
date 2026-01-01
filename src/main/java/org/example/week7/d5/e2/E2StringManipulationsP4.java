@@ -15,6 +15,11 @@ public class E2StringManipulationsP4 {
          */
 
 
+        String textMessage = "Hey! LMK if you are free.";
+
+        String replace = textMessage.replace("LMK", "Let me know");
+
+        System.out.println(replace);
 
     }
 }

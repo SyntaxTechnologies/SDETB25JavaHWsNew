@@ -14,5 +14,12 @@ public class E1ClassAndObject {
 
         // Print the values of 'name' and 'roll_no' in the specified format
 
+        Student s = new Student();
+
+        s.name = "John";
+        s.roll_no = 2;
+
+        System.out.println("Name is "+s.name+" and roll number is "+s.roll_no);
+
     }
 }

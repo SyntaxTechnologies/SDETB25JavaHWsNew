@@ -11,6 +11,11 @@ public class E3StringManipulationsP3 {
 // Extract the last character of `productCode`
 // Check if the last character is a digit '5'
 
+        String productCode = "KX125";
+
+        System.out.println("Product code starts with 'K': "+productCode.startsWith("K"));
+        System.out.println("Product code ends with '5': "+productCode.endsWith("5"));
+
 
 
     }

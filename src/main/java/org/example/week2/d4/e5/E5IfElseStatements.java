@@ -14,5 +14,12 @@ public class E5IfElseStatements {
         // If isJavaFun is true, print: Java is fun!
         // If isJavaFun is not true, print: Java is not fun.
 
+        boolean isJavaFun=true;
+            if (isJavaFun==true) {
+                System.out.println("Java is fun!");
+            }else {
+                System.out.println("Java is not fun.");
+            }
+
     }
 }

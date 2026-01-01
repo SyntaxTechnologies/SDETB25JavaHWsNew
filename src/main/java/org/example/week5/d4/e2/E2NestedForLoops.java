@@ -18,7 +18,14 @@ public class E2NestedForLoops {
 
 
 
+        for (int i = 0; i < 2; i++) {
 
+            System.out.println("SDLC");  // Print SDLC once
 
+            // Inner loop (print Java 3 times)
+            for (int j = 0; j < 3; j++) {
+                System.out.println("Java");
+            }
+        }
     }
 }

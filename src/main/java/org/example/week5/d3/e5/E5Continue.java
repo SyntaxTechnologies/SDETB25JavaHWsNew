@@ -6,5 +6,15 @@ public class E5Continue {
 
 
 
+        double [] sensor = {15.5, -1.0, 20.0, 22.5, -2.0, 18.0, 21.5};
+
+        for (double reading:sensor) {
+            if (reading<0){
+                continue;
+            }
+            System.out.println("Valid reading: "+reading+" units");
+        }
+
+
     }
 }

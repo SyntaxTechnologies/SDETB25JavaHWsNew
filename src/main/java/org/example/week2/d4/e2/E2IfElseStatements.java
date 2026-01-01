@@ -16,5 +16,12 @@ public class E2IfElseStatements {
         // If number is negative,then print The number is negative.
 
 
+        if (number<0) {
+            System.out.println("The number is negative.");
+
+        }else {
+            System.out.println("The number is positive.");
+        }
+
     }
 }

@@ -5,5 +5,11 @@ public class E4Arrays {
 
 
 
+        String[]words={"This","is","array","of","strings"};
+
+        for (int i=0; i < words.length;i++){
+            System.out.print(words[i]+" ");
+        }
+
     }
 }

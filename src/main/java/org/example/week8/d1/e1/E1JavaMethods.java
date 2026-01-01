@@ -18,10 +18,10 @@ public class E1JavaMethods {
         // "Hello, welcome to Java!"
         // "Goodbye! Have a great day!"
 
-
+            MethodLibrary.greet();
+            MethodLibrary.farewell();
+        }
     }
 
 
 
-
-}

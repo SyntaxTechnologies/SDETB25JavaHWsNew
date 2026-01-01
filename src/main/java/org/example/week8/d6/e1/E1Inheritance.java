@@ -16,6 +16,13 @@ public class E1Inheritance {
          *      Model: Corolla
          */
 
+        Car car = new Car();
+
+        car.make = "Toyota";
+        car.year = 2020;
+        car.model = "Corolla";
+
+        car.displayCarInfo();
 
     }
 }

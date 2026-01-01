@@ -18,6 +18,21 @@ public class E1StringManipulationsP2 {
     // - Print the results of the isEmpty() checks for s1, s2, and s3.
     // - Print the trimmed result of the 'text' variable.
 
+        String s1="Hello";
+        String s2="";
+        String s3="   ";
+        String text="   LearnJava   ";
+
+
+        System.out.println("Is s1 empty? "+s1.isEmpty());
+        System.out.println("Is s2 empty? "+s2.isEmpty());
+        System.out.println("Is s3 empty? "+s3.isEmpty());
+
+        String trimmed = text.trim();
+        System.out.println(trimmed);
+
+
+
 
     }
 }

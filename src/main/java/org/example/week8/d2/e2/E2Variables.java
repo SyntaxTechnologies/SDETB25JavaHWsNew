@@ -27,5 +27,13 @@ public class E2Variables {
         //        Welcome To Syntax Technologies
         //        Welcome To Syntax Technologies
         //        Welcome To Syntax Technologies
+
+        System.out.println(ss);
+
+        System.out.println(E2Variables.ss);
+
+        E2Variables obj = new E2Variables();
+        System.out.println(obj.ss);
+
     }
 }

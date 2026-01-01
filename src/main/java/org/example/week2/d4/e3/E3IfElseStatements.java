@@ -21,7 +21,6 @@ public class E3IfElseStatements {
 
         // Declare an integer variable called age and assign it the value 45
 
-
         // Print the user's information
 
         // Use a simple if-else condition to check if the user is 18 or older.
@@ -30,5 +29,12 @@ public class E3IfElseStatements {
 
         // If the user is younger than 18,then print You are not an adult.
 
+        System.out.println("Your name is "+name+","+" your age is "+age+","+" and your mobile number is "+mobileNumber);
+
+        if (age>18) {
+            System.out.println("You are an adult.");
+        }else {
+            System.out.println("You are not an adult.");
+        }
     }
 }

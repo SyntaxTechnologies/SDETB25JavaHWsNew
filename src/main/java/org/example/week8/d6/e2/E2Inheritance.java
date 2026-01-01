@@ -22,5 +22,12 @@ public class E2Inheritance {
          *
          * Follow these steps to complete your exercise without using method chaining.
          */
+
+        Dog dog = new Dog();
+
+        dog.displayAnimalInfo();
+        dog.displayMammalInfo();
+        dog.displayDogInfo();
+
 }
 }

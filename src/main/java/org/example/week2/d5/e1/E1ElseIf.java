@@ -50,5 +50,6 @@ public class E1ElseIf {
         // Print the day and corresponding activity in the format: "Day <day>: <activity>"
 
 
+
     }
 }
