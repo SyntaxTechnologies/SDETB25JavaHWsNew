@@ -7,4 +7,15 @@ public class Building {
      *    - For example, if location is "Vienna", the constructor should print "Vienna".
      * 3. Optionally, create a default constructor that prints "Building Constructor".
      */
+
+    String location;
+
+    public Building(String location) {
+        this.location = location;
+        System.out.println(location);
+    }
+
+    public Building() {
+        System.out.println("Building Constructor");
+    }
 }

@@ -8,5 +8,9 @@ public class E2SuperKeyword {
         // Step 3: Test by creating a `Car` object, ensuring the `Vehicle` constructor is called first due to constructor chaining.
         // Step 4: Verify the output shows the message from the `Vehicle` constructor, demonstrating the inheritance hierarchy.
 
+            new Car();
+        }
     }
-}
+
+
+

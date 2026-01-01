@@ -10,6 +10,11 @@ public class E1AbstractClass {
         // Call the stopEngine() method inherited from the Vehicle class.
         // Print the output to verify that all methods are being called correctly
 
+        Car car = new Car();
+
+        car.startEngine();
+        car.startEngine("a smart key");
+        car.stopEngine();
     }
 }
 

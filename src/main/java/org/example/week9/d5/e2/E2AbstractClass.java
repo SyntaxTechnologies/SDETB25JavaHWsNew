@@ -3,7 +3,7 @@ package org.example.week9.d5.e2;
 import java.awt.*;
 
 public class E2AbstractClass {
-    public static void main(String[] args){
+    public static void main(String[] args) {
 
         // Step 1: Create a `Shape` class with the following:
         // Create a protected String variable with name as shapeName and Create a constructor of Shape class with shapeName parameter
@@ -33,9 +33,17 @@ public class E2AbstractClass {
         // Call the `displayName()`,`calculateArea()` and `calculatePerimeter()` methods.
         // Print the output to verify that all methods are being called correctly
 
-        
+            Shape rectangle = new Rectangle(6, 4);
+            rectangle.displayName();
+            rectangle.calculateArea();
+            rectangle.calculatePerimeter();
 
+            Shape circle = new Circle(5);
+            circle.displayName();
+            circle.calculateArea();
+            circle.calculatePerimeter();
+        }
     }
-}
+
 
 

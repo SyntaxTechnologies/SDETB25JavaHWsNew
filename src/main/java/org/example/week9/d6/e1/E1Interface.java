@@ -15,6 +15,13 @@ public class E1Interface {
         // Step 4: In the `E1Interface.java` class, Create an object of the `Smartphone` class and call both the `turnOn()` and `turnOff()` methods.
         // Create an object of the `Laptop` class and call both the `turnOn()` and `turnOff()` methods and verify that all methods are being called correctly.
 
-    }
+        Smartphone phone = new Smartphone();
+        phone.turnOn();
+        phone.turnOff();
 
+        Laptop laptop = new Laptop();
+        laptop.turnOn();
+        laptop.turnOff();
+    }
 }
+

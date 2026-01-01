@@ -11,5 +11,13 @@ public class E2PolyMorphism {
      *
      */
 
+        Shape[] shapes = new Shape[2];
+        shapes[0] = new Circle(5);
+        shapes[1] = new Rectangle(4, 6);
+
+        for (int i = 0; i < shapes.length; i++) {
+            System.out.printf("%.2f%n", shapes[i].calculateArea());
+        }
     }
 }
+
