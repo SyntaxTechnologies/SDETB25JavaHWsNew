@@ -1,4 +1,7 @@
 package org.example.week10.d4.e2;
+
+import java.util.TreeSet;
+
 public class E2Set {
 
     public static void main(String[] args) {
@@ -9,6 +12,16 @@ public class E2Set {
         // Add `"India"`, `"Australia"`, `"South Africa"`, `"India"`, `"America"`, and `"America"`.
         // Step 3: Print the country names in the `TreeSet`. Verify that the set is automatically sorted and duplicates are removed.
 
+        TreeSet<String> countries = new TreeSet<>();
+
+        countries.add("India");
+        countries.add("Australia");
+        countries.add("South Africa");
+        countries.add("India");
+        countries.add("America");
+        countries.add("America");
+
+        System.out.println(countries);
 
     }
 

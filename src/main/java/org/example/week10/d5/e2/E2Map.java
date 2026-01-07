@@ -1,5 +1,10 @@
 package org.example.week10.d5.e2;
 
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 public class E2Map {
 
@@ -17,6 +22,34 @@ public class E2Map {
         // `remove(105)`: Remove the book with ID `105` (Moby Dick) from the catalog and print the updated catalog.
         // `clear()`: Clear the entire catalog and check if it’s empty using `isEmpty()`.
 
+        HashMap<Integer, String> catalog = new HashMap<>();
+
+        catalog.put(101, "The Catcher in the Rye");
+        catalog.put(102, "To Kill a Mockingbird");
+        catalog.put(103, "1984");
+        catalog.put(104, "The Great Gatsby");
+        catalog.put(105, "Moby Dick");
+
+        System.out.println("Initial number of books in catalog: " + catalog.size());
+
+        System.out.println("Is the catalog empty? " + catalog.isEmpty());
+
+        System.out.println("Is book with ID 102 available? " + catalog.containsKey(102));
+
+        System.out.println("Is the book \"1984\" available? " + catalog.containsValue("1984"));
+
+        catalog.remove(105);
+        System.out.println("Updated catalog after removing ID 105:");
+
+        List<Integer> keys = new ArrayList<>(catalog.keySet());
+        Collections.sort(keys);
+
+        for (Integer key : keys) {
+            System.out.println(key + ": " + catalog.get(key));
+        }
+
+        catalog.clear();
+        System.out.println("Is the catalog empty after clearing? " + catalog.isEmpty());
 
     }
 

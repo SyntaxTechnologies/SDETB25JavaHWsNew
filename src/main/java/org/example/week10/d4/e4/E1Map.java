@@ -1,5 +1,7 @@
 package org.example.week10.d4.e4;
 
+import java.util.LinkedHashMap;
+
 public class E1Map {
     public static void main(String[] args) {
 
@@ -29,6 +31,24 @@ public class E1Map {
          * City: Vienna
          * After clearing, is map empty? true
          */
+
+        LinkedHashMap<String, String> addressMap = new LinkedHashMap<>();
+
+        addressMap.put("Street", "Patrick ST");
+        addressMap.put("Suite", "265");
+        addressMap.put("City", "Vienna");
+        addressMap.put("Zip", "22180");
+        addressMap.put("Country", "United States");
+
+        System.out.println("Size: " + addressMap.size());
+
+        System.out.println("Is map empty? " + addressMap.isEmpty());
+
+        System.out.println("City: " + addressMap.get("City"));
+
+        addressMap.clear();
+
+        System.out.println("After clearing, is map empty? " + addressMap.isEmpty());
 
     }
 

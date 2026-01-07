@@ -1,5 +1,6 @@
 package org.example.week10.d5.e5;
 
+import java.util.*;
 
 public class E5Map {
 
@@ -12,6 +13,20 @@ public class E5Map {
         // Print the contents of each map using a loop, and observe how the data is organized into lists for each key.
         // Use a for-each loop to iterate through the entries of the TreeMap and print each key-value pair in the format:Subject: [key] Students: [value].
 
+        Map<String, List<String>> studentsBySubject = new HashMap<>();
 
+        studentsBySubject.put("Mathematics", Arrays.asList("Alice", "Bob"));
+        studentsBySubject.put("Science", Arrays.asList("Charlie", "David"));
+        studentsBySubject.put("History", Arrays.asList("Eve", "Frank"));
+
+        System.out.println("From Map (Students by Subject):");
+
+        for (Map.Entry<String, List<String>> entry : studentsBySubject.entrySet()) {
+            System.out.println(
+                    "Subject: " + entry.getKey() +
+                            " Students: " + entry.getValue()
+            );
+
+        }
     }
-    }
+}

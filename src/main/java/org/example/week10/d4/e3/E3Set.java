@@ -1,5 +1,7 @@
 package org.example.week10.d4.e3;
 
+import java.util.LinkedHashSet;
+
 public class E3Set {
     public static void main(String[] args) {
 
@@ -8,6 +10,20 @@ public class E3Set {
         // Step 2: Add the following email addresses to the LinkedHashSet:
         // Add null, "john.doe@example.com", "jane.smith@example.com", "john.doe@example.com" (duplicate), "admin@event.com", and "info@company.com".
         // Step 3: Use a for-each loop to iterate through the LinkedHashSet and print the email addresses one by one.
+
+        LinkedHashSet<String> emails = new LinkedHashSet<>();
+
+        emails.add(null);
+        emails.add("john.doe@example.com");
+        emails.add("jane.smith@example.com");
+        emails.add("john.doe@example.com"); // duplicate
+        emails.add("admin@event.com");
+        emails.add("info@company.com");
+
+        System.out.println("Email List using For-Each:");
+        for (String email : emails) {
+            System.out.println(email);
+        }
 
     }
 }
